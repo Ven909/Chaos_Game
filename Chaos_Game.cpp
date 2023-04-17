@@ -19,7 +19,7 @@ int main()
     promptUser.setCharacterSize(18);  //setting font size
     promptUser.setFillColor(Color::Red);   //setting font color
     Font font;
-    font.loadFromFile("fonts/KOMIKAP_.ttf");  //change to different font if needed, also put it in a folder called fonts
+    font.loadFromFile("KOMIKAP_.ttf");  //change to different font if needed, also put it in a folder called fonts
     promptUser.setFont(font);
     
     RectangleShape rectangle(Vector2f(2, 2));
