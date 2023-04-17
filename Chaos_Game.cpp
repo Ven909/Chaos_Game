@@ -22,7 +22,7 @@ int main()
     font.loadFromFile("KOMIKAP_.ttf");  //change to different font if needed, also put it in a folder called fonts
     promptUser.setFont(font);
     
-    RectangleShape rectangle(Vector2f(2, 2));
+    RectangleShape rect(Vector2f(2, 2));
 
     // may wanna use pairs instead?? already included the header btw: #include <utility>
     //don't know if this is how vector 2f is used??
